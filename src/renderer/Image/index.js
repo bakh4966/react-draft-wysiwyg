@@ -61,19 +61,19 @@ const getImageComponent = config => class Image extends Component {
           onClick={this.setEntityAlignmentLeft}
           className="rdw-image-alignment-option"
         >
-          L
+          Left {/*want to add translation*/}
         </Option>
         <Option
           onClick={this.setEntityAlignmentCenter}
           className="rdw-image-alignment-option"
         >
-          C
+          Center {/*want to add translation*/}
         </Option>
         <Option
           onClick={this.setEntityAlignmentRight}
           className="rdw-image-alignment-option"
         >
-          R
+          Right {/*want to add translation*/}
         </Option>
       </div>
     );
